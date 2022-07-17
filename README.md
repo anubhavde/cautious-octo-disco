@@ -19,3 +19,25 @@ In the CartPole-v0 environment, a pole is attached to a cart moving along a fric
 - The cart moves more than 2.4 units from the center.
 
 The problem is considered "solved" when the average total reward for the episode reaches 195 over 100 consecutive trials.
+
+### **SETUP**
+
+Run the following commands in the jupyter notebook:
+```python
+pip install gym[classic_control]
+pip install pyglet
+
+```
+Then install the additional packages for visualization:
+```python
+sudo apt-get install -y xvfb python-opengl > /dev/null 2>&1
+pip install pyvirtualdisplay > /dev/null 2>&1
+pip install git+https://github.com/tensorflow/docs > /dev/null 2>&1
+```
+
+### **MODEL**
+
+
+### **VISUALIZATION**
+
+After training, for understanding and research purposes, visualize how the model performs in the environment by creating a GIF animation of one episode run of the model. 
