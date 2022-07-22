@@ -35,9 +35,6 @@ pip install pyvirtualdisplay > /dev/null 2>&1
 pip install git+https://github.com/tensorflow/docs > /dev/null 2>&1
 ```
 
-### **MODEL**
-
-
 ### **VISUALIZATION**
 
 After training, for understanding and research purposes, visualize how the model performs in the environment by creating a GIF animation of one episode run of the model. 
